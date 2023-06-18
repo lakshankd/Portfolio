@@ -12,8 +12,12 @@ export default function Navbar() {
         </Link>
       </div>
       <div className={styles.btnContainer}>
-        <button className={styles.btn}>Projects</button>
-        <button className={styles.btn}>About</button>
+        <Link href="/projects">
+          <button className={styles.btn}>Projects</button>
+        </Link>
+        <Link href="/about">
+          <button className={styles.btn}>About</button>
+        </Link>
       </div>
     </nav>
   );
