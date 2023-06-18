@@ -25,17 +25,14 @@
 
 .btnContainer {
   display: flex;
-  width: 100%;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-around;
   gap: 10px;
 }
 
 .btn {
-  background-color: black;
+  background-color: #111;
   border-radius: 5px;
-  border: solid;
-  border-color: gray;
   padding: 5px;
 }
 
