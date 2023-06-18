@@ -9,8 +9,9 @@ export default function Home() {
         <Link href="/projects">
           <button className={styles.btn}>Projects</button>
         </Link>
-
-        <button className={styles.btn}>About</button>
+        <Link href="/about">
+          <button className={styles.btn}>About</button>
+        </Link>
       </div>
       <h1 className={styles.title}>dominiclakshan</h1>
       <p className={styles.desc}>
