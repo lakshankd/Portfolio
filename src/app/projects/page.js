@@ -25,7 +25,7 @@ export default function Projetcs() {
       <h3 className={styles.title}>Projects</h3>
       <div className={styles.projectContainer}>
         {projects.map((project) => (
-          <ProjectCard project={project} />
+          <ProjectCard project={project} key={project.id} />
         ))}
       </div>
     </div>
