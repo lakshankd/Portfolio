@@ -50,6 +50,14 @@ export default function Skills() {
       height: 40,
     },
     {
+      id: 11,
+      src: "/tech/material.svg",
+      name: "MaterialUI",
+      width: 40,
+      height: 40,
+    },
+
+    {
       id: 7,
       src: "/tech/spring.svg",
       name: "spirng boot",
@@ -77,6 +85,13 @@ export default function Skills() {
       width: 40,
       height: 40,
     },
+    {
+      id: 12,
+      src: "/tech/figma.svg",
+      name: "figma",
+      width: 80,
+      height: 80,
+    },
   ];
 
   return (
@@ -86,7 +101,7 @@ export default function Skills() {
         <h1 className={styles.title}>Technical Skills</h1>
         <div className={styles.imgContainer}>
           {technologies.map((item) => (
-            <div className={styles.techItem}>
+            <div className={styles.techItem} key={item.id}>
               <Image
                 src={item.src}
                 width={item.width}
