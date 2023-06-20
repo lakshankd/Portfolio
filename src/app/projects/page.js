@@ -2,6 +2,8 @@ import Navbar from "@/components/navbar/Navbar";
 import React from "react";
 import styles from "./page.module.css";
 import ProjectCard from "@/components/project-card/ProjectCard";
+import Footer from "@/components/footer/Footer";
+import Button from "@/components/button/Button";
 
 export default function Projetcs() {
   const projects = [
@@ -22,12 +24,18 @@ export default function Projetcs() {
   return (
     <div className={styles.container}>
       <Navbar />
-      <h3 className={styles.title}>Projects</h3>
-      <div className={styles.projectContainer}>
-        {projects.map((project) => (
-          <ProjectCard project={project} key={project.id} />
-        ))}
+      <div className={styles.content}>
+        <h1 className={styles.title}>Projects</h1>
+        <div className={styles.projectsContainer}>
+          {projects.map((project) => (
+            <div key={project.id} className={styles.cardItem}>
+              <ProjectCard project={project} />
+            </div>
+          ))}
+        </div>
+        <Button url="/contact" text="Contact Me" next={true} />
       </div>
+      <Footer />
     </div>
   );
 }
