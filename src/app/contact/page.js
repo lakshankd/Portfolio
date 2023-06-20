@@ -3,13 +3,14 @@ import React from "react";
 import styles from "./page.module.css";
 import Image from "next/image";
 import Link from "next/link";
+import Footer from "@/components/footer/Footer";
 
 export default function About() {
   return (
     <div className={styles.container}>
       <Navbar />
-      <h3 className={styles.title}>About Me</h3>
-      <div className={styles.items}>
+      <div className={styles.content}>
+        <h3 className={styles.title}>Contact Me</h3>
         <Image
           src="/my-photo.jpeg"
           width={250}
@@ -23,34 +24,36 @@ export default function About() {
           projects that push boundaries. Explore my portfolio to see my
           dedication and expertise in action.
         </p>
-        <span>dominiclakshank@gmail.com</span>
+        <Image src="/name.png" height={50} width={200} alt="name" />
+        {/* <span>dominiclakshank@gmail.com</span> */}
         <div className={styles.imgContainer}>
           <Link href="https://github.com/lakshankd">
             <Image
-              width={30}
-              height={30}
-              src="/github.png"
+              width={40}
+              height={40}
+              src="/contact/github.svg"
               alt="github account"
             />
           </Link>
-          <Link href="https://medium.com/@dominiclakshank">
+          <Link href="dominiclakshank@gmail.com">
             <Image
-              width={30}
-              height={30}
-              src="/medium.png"
-              alt="medium account"
+              width={40}
+              height={40}
+              src="/contact/gmail.svg"
+              alt="gmail account"
             />
           </Link>
-          <Link href="https://www.hackerrank.com/dominiclakshank?hr_r=1">
+          <Link href="https://www.linkedin.com/in/dominic-lakshan-1b710927a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BRk%2BunjR0QfucJLRoXTsdpQ%3D%3D">
             <Image
-              width={30}
-              height={30}
-              src="/hackerR.png"
-              alt="hackerRank account"
+              width={40}
+              height={40}
+              src="/contact/linkedin.svg"
+              alt="linkedin account"
             />
           </Link>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

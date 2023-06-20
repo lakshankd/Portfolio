@@ -6,19 +6,23 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <nav className={styles.container}>
-      <div>
+      {/* <div>
         <Link href="/">
           <Image src="/arrow.png" width={20} height={20} alt="arrow-btn" />
         </Link>
-      </div>
-      <div className={styles.btnContainer}>
-        <Link href="/projects">
-          <button className={styles.btn}>Projects</button>
-        </Link>
-        <Link href="/about">
-          <button className={styles.btn}>About</button>
-        </Link>
-      </div>
+      </div> */}
+      <Link href="/">
+        <button className={styles.btn}>Home</button>
+      </Link>
+      <Link href="/skills">
+        <button className={styles.btn}>Skills</button>
+      </Link>
+      <Link href="/projects">
+        <button className={styles.btn}>Projects</button>
+      </Link>
+      <Link href="/contact">
+        <button className={styles.btn}>Contact</button>
+      </Link>
     </nav>
   );
 }

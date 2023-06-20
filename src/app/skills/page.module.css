@@ -9,11 +9,11 @@
 }
 
 .content {
+  width: inherit;
   display: flex;
   flex-direction: column;
-  gap: 30px;
   align-items: center;
-  margin-bottom: 80px;
+  gap: 50px;
 }
 
 .title {
@@ -23,25 +23,23 @@
   text-align: center;
 }
 
-@keyframes slideInFromBottom {
-  0% {
-    transform: translateY(100%);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-.projectsContainer {
-  animation: slideInFromBottom 0.5s ease-out;
+.imgContainer {
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.cardItem {
+.techItem {
   flex: 1 0 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: space-between;
 }
