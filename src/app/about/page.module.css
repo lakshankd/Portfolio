@@ -23,7 +23,7 @@
 }
 
 .items {
-  animation: slideInFromBottom 2s ease-out;
+  animation: slideInFromBottom 0.5s ease-out;
   width: 100%;
   margin: 50px auto;
   display: flex;
