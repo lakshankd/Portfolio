@@ -11,7 +11,7 @@
 }
 
 .container {
-  animation: slideInFromBottom 2s ease-out;
+  animation: slideInFromBottom 0.5s ease-out;
   display: flex;
   flex-direction: column;
   align-items: center;
