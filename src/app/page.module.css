@@ -40,7 +40,17 @@
   color: white;
 }
 
+@keyframes titleAnimation {
+  from {
+    transform: translateY(-10px);
+  }
+  to {
+    transform: translateY(0) scale(1.03);
+  }
+}
+
 .title {
+  animation: titleAnimation 3s infinite ease alternate;
   font-size: 10vw;
   color: white;
   font-weight: 600;
@@ -49,4 +59,5 @@
 .desc {
   min-width: 285px;
   color: gray;
+  text-align: center;
 }
