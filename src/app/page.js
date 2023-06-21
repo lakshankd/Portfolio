@@ -12,9 +12,9 @@ export default function Home() {
         <h1 className={styles.title}>dominiclakshan</h1>
         <p className={styles.subTitle}>Full Stack Developer</p>
         <p className={styles.desc}>
-          "Passionate about software engineering, I love creating innovative
+          Passionate about software engineering, I love creating innovative
           projects that push boundaries. Explore my portfolio to see my
-          dedication and expertise in action."
+          dedication and expertise in action.
         </p>
         <Button text="Skills" url="/skills" next={true} />
       </div>
