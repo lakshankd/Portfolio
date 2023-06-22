@@ -19,11 +19,11 @@ export const projectsData = [
     desc: "The portfolio site showcases my details, including my skills, projects I have completed, and contact information.",
     link: "https://github.com/lakshankd/Portfolio",
   },
-  {
-    id: 4,
-    date: "Jun 18, 2023",
-    name: "Full-Stack Next Js app",
-    desc: "This was built to familiarize with the Next.js framework. It is a simple app that includes Home page, Dashboard, and Contact page, among others. It is still in the development process.",
-    link: "https://github.com/lakshankd/NextJs-Full-Stack-App",
-  },
+  // {
+  //   id: 4,
+  //   date: "Jun 18, 2023",
+  //   name: "Full-Stack Next Js app",
+  //   desc: "This was built to familiarize with the Next.js framework. It is a simple app that includes Home page, Dashboard, and Contact page, among others. It is still in the development process.",
+  //   link: "https://github.com/lakshankd/NextJs-Full-Stack-App",
+  // },
 ];
