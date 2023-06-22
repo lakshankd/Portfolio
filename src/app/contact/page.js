@@ -24,7 +24,7 @@ export default function About() {
           projects that push boundaries. Explore my portfolio to see my
           dedication and expertise in action.
         </p>
-        <Image src="/name.png" height={50} width={200} alt="name" />
+        {/* <Image src="/name.png" height={50} width={200} alt="name" /> */}
         {/* <span>dominiclakshank@gmail.com</span> */}
         <div className={styles.imgContainer}>
           <Link href="https://github.com/lakshankd">
