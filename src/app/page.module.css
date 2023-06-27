@@ -54,7 +54,7 @@
 }
 
 .title {
-  animation: titleAnimation 3s infinite ease alternate;
+  /* animation: titleAnimation 3s infinite ease alternate; */
   font-size: 10vw;
   color: white;
   font-weight: 600;
