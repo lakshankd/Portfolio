@@ -1,22 +1,32 @@
 .container {
   max-width: 400px;
   flex-basis: calc(50% - 15px);
-  border: solid;
-  border-width: 1px;
-  border-radius: 5px;
-  border-color: lightgray 0.5;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
   padding: 20px;
+  height: max-content;
+}
+
+.dateContainer {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .date {
   color: white;
-  padding-bottom: 5px;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  border: 5px 0px;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 25px;
 }
 
 .title {
-  color: white;
+  color: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   font-size: 30px;
-  font-weight: 500;
+  font-weight: bolder;
   padding-bottom: 10px;
 }
 
@@ -27,4 +37,8 @@
 
 .link {
   color: white;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  padding: 10px;
+  border-radius: 25px;
+  font-weight: bold;
 }
