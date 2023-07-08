@@ -19,19 +19,3 @@ body {
   color: whitesmoke;
 }
 
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-.container {
-  margin: 0 auto;
-  padding: 0 50px;
-}
