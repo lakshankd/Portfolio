@@ -34,3 +34,54 @@
   border: none;
   font-size: 14px;
 }
+
+.nav_menu {
+  display: none;
+}
+
+.nav_menu_icon {
+}
+
+.nav_menu_links {
+  background-color: white;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 40px;
+  padding: 20px;
+  gap: 10px;
+  font-size: 18px;
+  align-items: flex-start;
+  box-shadow: 0.5px gainsboro;
+}
+
+.nav_menu_links button {
+  padding: 8px;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 800px) {
+  .nav_logo h1 {
+    font-size: 15px;
+  }
+  .nav_links {
+    display: none;
+  }
+  .nav_menu {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: flex-end;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .nav_logo h1 {
+    display: none;
+  }
+}
