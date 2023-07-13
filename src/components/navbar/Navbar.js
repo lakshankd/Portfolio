@@ -12,8 +12,8 @@ function Navbar() {
       <div className={styles.nav_logo}>
         <Image
           src="/logo/logo.png"
-          width={50}
-          height={50}
+          width={40}
+          height={40}
           className={styles.nav_logo_img}
           alt="logo"
         />
@@ -29,10 +29,15 @@ function Navbar() {
       <div className={styles.nav_menu}>
         <div className={styles.nav_menu_icon}>
           {isMenuOpen ? (
-            <GrClose size={20} onClick={() => setIsMenuOpen((prev) => !prev)} />
+            <GrClose
+              size={30}
+              color="white"
+              onClick={() => setIsMenuOpen((prev) => !prev)}
+            />
           ) : (
             <BiMenuAltRight
-              size={25}
+              size={30}
+              color="white"
               onClick={() => setIsMenuOpen((prev) => !prev)}
             />
           )}

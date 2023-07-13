@@ -1,10 +1,11 @@
 import Navbar from "@/components/navbar/Navbar";
-import styles from "./page.module.css";
+import HeroSection from "@/components/hero/HeroSection";
 
 export default function Home() {
   return (
     <div className="container">
       <Navbar />
+      <HeroSection />
     </div>
   );
 }

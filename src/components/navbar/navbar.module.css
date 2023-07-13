@@ -1,6 +1,6 @@
 .container {
-  background-color: white;
-  color: black;
+  background-color: #000000;
+  color: #fdfdfd;
   height: 70px;
   width: 100vw;
   display: flex;
@@ -8,7 +8,6 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 50px;
-  position: absolute;
 }
 
 .nav_logo {
@@ -16,7 +15,12 @@
   flex-direction: row;
   align-items: center;
   font-weight: bold;
-  line-height: 20px;
+  line-height: 10px;
+  gap: 20px;
+}
+
+.nav_logo_img {
+  border-radius: 8px;
 }
 
 .nav_links {
@@ -28,8 +32,8 @@
 
 .nav_links button {
   padding: 10px;
-  background-color: black;
-  color: white;
+  background-color: #c4fe76;
+  color: #272727;
   border-radius: 5px;
   border: none;
   font-size: 14px;
@@ -46,7 +50,7 @@
   -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
     both;
   animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-  background-color: white;
+  background-color: #272727;
   border: 1px solid gray;
   display: flex;
   flex-direction: column;
@@ -54,6 +58,7 @@
   top: 40px;
   padding: 20px;
   gap: 10px;
+  border-radius: 5px;
   font-size: 18px;
   align-items: flex-start;
   box-shadow: 0.5px gainsboro;
@@ -61,8 +66,8 @@
 
 .nav_menu_links button {
   padding: 8px;
-  background-color: black;
-  color: white;
+  background-color: #c4fe76;
+  color: #272727;
   border-radius: 3px;
   border: none;
   font-size: 12px;
