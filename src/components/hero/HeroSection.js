@@ -18,7 +18,7 @@ export default function HeroSection() {
       </div>
       <div className={styles.img_section}>
         <Image
-          src="/my-photo-PhotoRoom (1).png"
+          src="/my-photo-edited.png"
           width={400}
           height={400}
           alt="image"
