@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  width: 100vw;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px 50px;
+  align-items: center;
+}
+
+.skills_left {
+  margin: auto;
+  width: 30%;
+}
+
+.skills_right {
+  margin: auto;
+  width: 70%;
+}
+
+.skills_title {
+  font-size: 40px;
+  font-weight: bolder;
+  color: #c4fe76;
+}
+
+.skills_right dl {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: justify;
+}
+
+.skills_right dt {
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.skills_right dt::before {
+  content: "•"; /* Use the disc character (•) as the bullet point */
+  margin-right: 10px;
+  left: 0;
+  color: #c4fe76; /* Change the color to your desired value (#ff6600 is an example) */
+  font-size: 50px;
+}
+
+.skills_right dd {
+  font-size: 20px;
+  margin-left: 50px;
+  color: gray;
+  text-decoration: none;
+}
+
+.skills_right li {
+  list-style-type: circle;
+  padding: 10px;
+}

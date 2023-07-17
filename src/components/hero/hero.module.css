@@ -1,9 +1,9 @@
 .container {
   animation: scale-in-hor-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   width: 100vw;
-  padding: 200px 50px;
+  padding: 200px 50px 50px 50px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -25,11 +25,11 @@
 
 .info_section_head4 {
   margin-top: 20px;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .info_section p {
-  font-size: 18px;
+  font-size: 20px;
   color: gray;
 }
 
@@ -38,7 +38,7 @@
   color: #272727;
   background-color: #c4fe76;
   padding: 10px 20px;
-  margin-top: 20px;
+  margin-top: 40px;
   border-radius: 30px;
 }
 
