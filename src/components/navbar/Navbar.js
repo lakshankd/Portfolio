@@ -2,8 +2,9 @@
 import React, { useState } from "react";
 import styles from "./navbar.module.css";
 import Image from "next/image";
-import { BiMenuAltRight } from "react-icons/bi";
-import { GrClose } from "react-icons/gr";
+import logo from "../../../public/logo/logo.png";
+import menuIcon from "../../../public/icons/icons8-menu.svg";
+import closeIcon from "../../../public/icons/icons8-close.svg";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,7 +12,7 @@ function Navbar() {
     <nav className={styles.container}>
       <div className={styles.nav_logo}>
         <Image
-          src="/logo/logo.png"
+          src={logo}
           width={40}
           height={40}
           className={styles.nav_logo_img}
@@ -27,17 +28,21 @@ function Navbar() {
         <button>Contact</button>
       </div>
       <div className={styles.nav_menu}>
-        <div className={styles.nav_menu_icon}>
+        <div className={styles.nav_menu_icon} color="white">
           {isMenuOpen ? (
-            <GrClose
-              size={30}
-              color="white"
+            <Image
+              src={closeIcon}
+              width={25}
+              height={25}
+              alt="menu-icon"
               onClick={() => setIsMenuOpen((prev) => !prev)}
             />
           ) : (
-            <BiMenuAltRight
-              size={30}
-              color="white"
+            <Image
+              src={menuIcon}
+              width={25}
+              height={25}
+              alt="menu-icon"
               onClick={() => setIsMenuOpen((prev) => !prev)}
             />
           )}
