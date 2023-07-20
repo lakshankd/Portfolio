@@ -8,7 +8,7 @@ export default function Contact() {
     <div className={styles.container}>
       <div className={styles.head_section}>
         <h1>Contact Me</h1>
-        <p>Let's start a project!</p>
+        <p>Let{"'"}s start a project!</p>
       </div>
       <div className={styles.details_section}>
         <h2>Find me on</h2>
