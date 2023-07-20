@@ -5,12 +5,14 @@ export const projectsData = [
     name: "Websafe",
     desc: "The Cookie Consent Management System is an open-source tool that helps websites comply with laws and regulations related to cookies and tracking technologies. It provides website visitors with information about the types of cookies being used, while also giving them the option to control their cookie preferences.",
     link: "https://github.com/Team-Infolinx",
+    languages: ["Java", "JavaScript", "Html", "CSS"],
   },
   {
     id: 2,
     date: "May 15, 2022",
     name: "Automated Cake Slicing Machine",
     desc: "A hardware project utilizing an Atmega32 Microcontroller to create an autonomous cake slicing machine. Users can slice cakes based on entered weight, ensuring precise and consistent portions.",
+    languages: ["C"],
   },
   {
     id: 3,
@@ -18,6 +20,7 @@ export const projectsData = [
     name: "Portfolio site",
     desc: "The portfolio site showcases my details, including my skills, projects I have completed, and contact information.",
     link: "https://github.com/lakshankd/Portfolio",
+    languages: ["JavaScript", "CSS"],
   },
   // {
   //   id: 4,
