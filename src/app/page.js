@@ -2,6 +2,7 @@ import Navbar from "@/components/navbar/Navbar";
 import HeroSection from "@/components/hero/HeroSection";
 import SkillsSection from "@/components/skills/SkillsSection";
 import Technologies from "@/components/technologies/Technologies";
+import Projects from "@/components/projects/Projects";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <HeroSection />
       <SkillsSection />
       <Technologies />
+      <Projects />
     </div>
   );
 }
