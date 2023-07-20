@@ -1,9 +1,11 @@
 .container {
   width: 100vw;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 50px 100px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  gap: 30px;
 }
 
 .tech_image_container {
@@ -18,4 +20,14 @@
 .tech_image_container p {
   font-size: 16px;
   color: gray;
+}
+
+@media screen and (max-width: 730px) {
+  .tech_image_container {
+    height: 70px;
+    gap: 5px;
+  }
+  .tech_image_container p {
+    font-size: 12px;
+  }
 }

@@ -53,3 +53,57 @@
   list-style-type: circle;
   padding: 10px;
 }
+
+@media screen and (max-width: 1120px) {
+  .skills_left,
+  .skills_right {
+    width: 100%;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .skills_title {
+    font-size: 30px;
+  }
+
+  .skills_right dt {
+    font-size: 25px;
+  }
+
+  .skills_right dd {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .skills_title {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .container {
+    padding: 50px 30px;
+  }
+  .skills_right dt {
+    font-size: 18px;
+  }
+
+  .skills_right dd {
+    font-size: 14px;
+  }
+
+  .skills_right dl {
+    gap: 5px;
+  }
+
+  .skills_right dt::before {
+    font-size: 30px;
+  }
+
+  .skills_right dd {
+    margin-left: 20px;
+  }
+}
