@@ -15,7 +15,7 @@ export default function HeroSection() {
           projects that push boundaries. Explore my portfolio to see my
           dedication and expertise in action.
         </p>
-        <Link href="#contact_section">
+        <Link href="/#contact_section">
           <button>Contact Me</button>
         </Link>
       </div>

@@ -22,11 +22,11 @@ function Navbar() {
         <h1>Dominic Lakshan</h1>
       </div>
       <div className={styles.nav_links}>
-        <Link href="#hero_section">Home</Link>
-        <Link href="#skills_section">Skills</Link>
-        <Link href="#projects_section">Projects</Link>
+        <Link href="/#hero_section">Home</Link>
+        <Link href="/#skills_section">Skills</Link>
+        <Link href="/#projects_section">Projects</Link>
         {/* <Link href="#interest">Interests</Link> */}
-        <Link href="#contact_section">
+        <Link href="/#contact_section">
           <button>Contact</button>
         </Link>
       </div>
@@ -52,11 +52,11 @@ function Navbar() {
         </div>
         {isMenuOpen && (
           <div className={styles.nav_menu_links}>
-            <Link href="#hero_section">Home</Link>
-            <Link href="#skills_section">Skills</Link>
-            <Link href="#projects_section">Projects</Link>
-            {/* <Link href="#interest">Interests</Link> */}
-            <Link href="#contact_section">
+            <Link href="/#hero_section">Home</Link>
+            <Link href="/#skills_section">Skills</Link>
+            <Link href="/#projects_section">Projects</Link>
+            {/* <Link href="/#interest">Interests</Link> */}
+            <Link href="/#contact_section">
               <button>Contact</button>
             </Link>
           </div>
