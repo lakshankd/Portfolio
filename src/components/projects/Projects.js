@@ -6,7 +6,7 @@ import ProjectCard from "./ProjectCard";
 export default function Projects() {
   const projects = projectsData;
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="projects_section">
       <div className={styles.title_container}>
         <h1>Projects</h1>
       </div>

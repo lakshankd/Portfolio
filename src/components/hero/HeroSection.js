@@ -1,10 +1,11 @@
 import Image from "next/image";
 import React from "react";
 import styles from "./hero.module.css";
+import Link from "next/link";
 
 export default function HeroSection() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="hero_section">
       <div className={styles.info_section}>
         <h4 className={styles.info_section_head1}>Hi!</h4>
         <h1 className={styles.info_section_head2}>I am Dominic.</h1>
@@ -14,7 +15,9 @@ export default function HeroSection() {
           projects that push boundaries. Explore my portfolio to see my
           dedication and expertise in action.
         </p>
-        <button>Contact Me</button>
+        <Link href="#contact_section">
+          <button>Contact Me</button>
+        </Link>
       </div>
       <div className={styles.img_section}>
         <Image

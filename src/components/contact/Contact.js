@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Contact() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="contact_section">
       <div className={styles.head_section}>
         <h1>Contact Me</h1>
         <p>Let{"'"}s start a project!</p>
@@ -31,7 +31,7 @@ export default function Contact() {
               height={40}
               alt="linkedin-icon"
             />
-            <Link href="linkedin.com/in/dominic-lakshan-1b710927a">
+            <Link href="https://www.linkedin.com/in/dominic-lakshan-1b710927a/">
               <span>linkedin.com/dominic-lakshan</span>
             </Link>
           </div>
