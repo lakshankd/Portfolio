@@ -5,6 +5,7 @@ import Image from "next/image";
 import logo from "../../../public/logo/logo.png";
 import menuIcon from "../../../public/icons/icons8-menu.svg";
 import closeIcon from "../../../public/icons/icons8-close.svg";
+import Link from "next/link";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,11 +22,13 @@ function Navbar() {
         <h1>Dominic Lakshan</h1>
       </div>
       <div className={styles.nav_links}>
-        <a href="#home">Home</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#interest">Interests</a>
-        <button>Contact</button>
+        <Link href="#hero_section">Home</Link>
+        <Link href="#skills_section">Skills</Link>
+        <Link href="#projects_section">Projects</Link>
+        {/* <Link href="#interest">Interests</Link> */}
+        <Link href="#contact_section">
+          <button>Contact</button>
+        </Link>
       </div>
       <div className={styles.nav_menu}>
         <div className={styles.nav_menu_icon} color="white">
@@ -49,11 +52,13 @@ function Navbar() {
         </div>
         {isMenuOpen && (
           <div className={styles.nav_menu_links}>
-            <a href="#home">Home</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#interest">Interests</a>
-            <button>Contact</button>
+            <Link href="#hero_section">Home</Link>
+            <Link href="#skills_section">Skills</Link>
+            <Link href="#projects_section">Projects</Link>
+            {/* <Link href="#interest">Interests</Link> */}
+            <Link href="#contact_section">
+              <button>Contact</button>
+            </Link>
           </div>
         )}
       </div>

@@ -1,11 +1,9 @@
 import React from "react";
 import styles from "./skills.module.css";
-import Image from "next/image";
-import skillImage from "../../../public/skills/skills.svg";
 
 export default function SkillsSection() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="skills_section">
       <div className={styles.skills_left}>
         <h1 className={styles.skills_title}>My Skills</h1>
         {/* <Image src={skillImage} width={300} height={300} alt="skills-image" /> */}
