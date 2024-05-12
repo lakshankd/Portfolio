@@ -4,8 +4,7 @@ Welcome to my Portfolio Showcase repository! This repository is dedicated to sho
 
 ## Deployment
 
-- New Deployment Link: [https://dominiclakshan.vercel.app/](https://dominiclakshan.vercel.app/)
-- Old Deployment Link: [https://dominiclakshan.netlify.app/](https://dominiclakshan.netlify.app/)
+Link: [https://dominiclakshan.vercel.app/](https://dominiclakshan.vercel.app/)
 
 Feel free to explore the deployed portfolio and check out the projects I have completed. If you have any feedback or questions, don't hesitate to reach out to me.
 
