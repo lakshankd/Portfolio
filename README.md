@@ -27,4 +27,6 @@ Thank you for visiting my portfolio repository! I hope you enjoy exploring my pr
 
 Happy coding! 😄
 
+<!-- Add a comment -->
+
 
