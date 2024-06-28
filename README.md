@@ -26,7 +26,3 @@ I would like to express my gratitude to everyone who has supported and inspired 
 Thank you for visiting my portfolio repository! I hope you enjoy exploring my projects as much as I enjoyed building them.
 
 Happy coding! 😄
-
-<!-- Add a comment -->
-
-
