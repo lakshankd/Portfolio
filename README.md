@@ -1,4 +1,4 @@
-# Portfolio 
+# Portfolio
 
 Welcome to my Portfolio Showcase repository! This repository is dedicated to showcasing the projects I have worked on and highlighting my skills and achievements as a developer.
 
@@ -26,3 +26,5 @@ I would like to express my gratitude to everyone who has supported and inspired 
 Thank you for visiting my portfolio repository! I hope you enjoy exploring my projects as much as I enjoyed building them.
 
 Happy coding! 😄
+
+<!-- need to edit -->
