@@ -6,7 +6,7 @@ import ProfileImg from "../../assets/images/profile.jpeg";
 
 const HeroSection = () => {
   return (
-    <div className="absolute top-0 flex h-screen w-full overflow-hidden  bg-black/[0.96] antialiased items-center justify-center">
+    <div className="absolute top-0 flex h-[30rem] md:min-h-screen w-full overflow-hidden  bg-black/[0.96] antialiased items-center justify-center">
       <div
         className={cn(
           "pointer-events-none absolute inset-0 [background-size:40px_40px] select-none",
