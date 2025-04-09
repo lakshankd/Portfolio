@@ -10,7 +10,8 @@ export default function Home() {
     <main className="relative w-full dark:bg-black/[0.96]">
       <NavbarSection />
       <HeroSection />
-      <div className="h-[30rem] md:h-screen bg-black" /> {/* ← Critical fix */}
+      <div className="h-[30rem] md:h-screen bg-white dark:bg-black" />{" "}
+      {/* ← Critical fix */}
       <ProjectSection />
       <PathSection />
       <ContactSection />
