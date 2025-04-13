@@ -1,31 +1,36 @@
-# Portfolio 
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Welcome to my Portfolio Showcase repository! This repository is dedicated to showcasing the projects I have worked on and highlighting my skills and achievements as a developer.
+## Getting Started
 
-## Deployment
+First, run the development server:
 
-- New Deployment Link: [https://dominiclakshan.vercel.app/](https://dominiclakshan.vercel.app/)
-- Old Deployment Link: [https://dominiclakshan.netlify.app/](https://dominiclakshan.netlify.app/)
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-Feel free to explore the deployed portfolio and check out the projects I have completed. If you have any feedback or questions, don't hesitate to reach out to me.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## About Me
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-I am a passionate and enthusiastic software developer with a strong focus on web development and programming. I love to learn new technologies and constantly improve my skills to deliver high-quality, efficient, and maintainable software.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Contact
+## Learn More
 
-If you have any inquiries, collaboration proposals, or just want to say hi, feel free to reach out to me:
+To learn more about Next.js, take a look at the following resources:
 
-- Email: dominiclakshank@gmail.com
-- LinkedIn: [linkedin.com/dominiclakshan](https://www.linkedin.com/in/dominic-lakshan-1b710927a/)
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## Acknowledgments
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-I would like to express my gratitude to everyone who has supported and inspired me throughout my journey as a developer.
+## Deploy on Vercel
 
-Thank you for visiting my portfolio repository! I hope you enjoy exploring my projects as much as I enjoyed building them.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Happy coding! 😄
-
-
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
