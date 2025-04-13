@@ -12,7 +12,13 @@ const nextConfig = {
         protocol: "https",
         hostname: "assets.aceternity.com",
         port: "",
-        pathname: "/**", // Allows all paths under this domain
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "avatars.githubusercontent.com",
+        port: "",
+        pathname: "/**",
       },
     ],
   },

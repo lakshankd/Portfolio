@@ -50,7 +50,10 @@ const itemVariants = {
 
 const ContactSection = () => {
   return (
-    <section className="md:w-6xl h-full mx-auto pb-10">
+    <section
+      id="contact"
+      className="md:w-6xl h-full mx-auto pb-10 scroll-mt-20"
+    >
       <h2 className="max-w-6xl pl-4 mx-auto text-xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
         Contact Me
       </h2>
