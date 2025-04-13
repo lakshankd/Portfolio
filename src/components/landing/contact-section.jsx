@@ -4,6 +4,7 @@ import React from "react";
 import { motion } from "motion/react";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import Link from "next/link";
+import { HoverBorderGradient } from "../ui/hover-border-gradient";
 
 const contactMethods = [
   {
@@ -61,6 +62,7 @@ const ContactSection = () => {
         Interested in collaborating or just want to say hi? Reach out through
         the links below.
       </p>
+
       <motion.div
         className="flex justify-items-start items-center gap-6 flex-wrap py-10 max-w-6xl pl-4"
         variants={containerVariants}
@@ -69,17 +71,21 @@ const ContactSection = () => {
         viewport={{ once: true }}
       >
         {contactMethods.map((contact, index) => (
-          <motion.a
+          <Link
             key={index}
             href={contact.link}
             target="_blank"
             rel="noopener noreferrer"
-            variants={itemVariants}
-            className={`flex items-center gap-2 border dark:border-gray-700 border-gray-300 rounded-lg px-4 py-2 hover:shadow-lg transition duration-300 ${contact.color}`}
           >
-            {contact.icon}
-            <span className="text-base font-medium">{contact.name}</span>
-          </motion.a>
+            <HoverBorderGradient
+              containerClassName="rounded-full"
+              as="button"
+              className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2 hover:cursor-pointer"
+            >
+              {contact.icon}
+              <span>{contact.name}</span>
+            </HoverBorderGradient>
+          </Link>
         ))}
       </motion.div>
     </section>
